@@ -1,0 +1,451 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="s4d_login" id="|rEc6MK@B`#CAd.0nrou" collapsed="true" x="-989" y="-37">
+    <value name="TOKEN">
+      <block type="text" id="#-0;+I4Z4Ja.7?i1tEC#">
+        <field name="TEXT">ODcyMjI5NTMyOTg2Mzg0NDI0.YQm1DQ.jevrbgGlXebcEG8YP-vBM7dKJ3U</field>
+      </block>
+    </value>
+  </block>
+  <block type="s4d_on_connected" id="5@PodfYe|%_IDUl8k)~w" x="-982" y="38">
+    <statement name="STATEMENTS">
+      <block type="s4d_send_channel" id="Yj6Xk.:bbjX;UnlB9XJ6">
+        <value name="CONTENT">
+          <block type="s4d_message_embed" id="Lu-x+W_o.oY[zFFr1)7H" inline="false" collapsed="true">
+            <mutation xmlns="http://www.w3.org/1999/xhtml" message="true" color="true" title="true"></mutation>
+            <value name="MESSAGE">
+              <block type="text" id="2{zP|qYw6oJ~*-*:OS$_">
+                <field name="TEXT">BestBot is online! :)</field>
+              </block>
+            </value>
+            <value name="COLOR">
+              <block type="colour_picker" id="Z4.))!#`tukwt~m.9U^q">
+                <field name="COLOUR">#990000</field>
+              </block>
+            </value>
+            <value name="TITLE">
+              <block type="text" id="4Bv[QpisX_D5K9!;o8{i">
+                <field name="TEXT">Bot Online</field>
+              </block>
+            </value>
+            <value name="FOOTER">
+              <block type="text" id="`ju4yXBSjxL#+b9WDn[?">
+                <field name="TEXT">Created by midsummerred32</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="CHANNEL">
+          <block type="s4d_get_channel" id="rkS{}AdbnJqJqCljxZnV" collapsed="true">
+            <field name="SEARCH_TYPE">NAME</field>
+            <value name="VALUE">
+              <block type="text" id="3kVl,D+N%Pd)a4O4)in+">
+                <field name="TEXT">logs</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="s4d_forever" id="|@bsH@B65(l)2Ty#8emX">
+            <statement name="STATEMENT">
+              <block type="s4d_set_bot_game" id="9svQWSqZVTH3dprW$U}{">
+                <value name="GAME">
+                  <block type="text" id="p:4.LZGQ;SyY3^,G~%D9">
+                    <field name="TEXT">my mixtape</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="s4d_wait_seconds" id="F)f_:-=-w-V6ZB+QR=*Q">
+                    <value name="TIME">
+                      <shadow type="math_number" id=",-A3LFs+KexR#,/$).C[">
+                        <field name="NUM">2</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="s4d_set_bot_game" id="jb,3LY/g1n2$PJC?lWC9">
+                        <value name="GAME">
+                          <block type="text" id="kNfniF%mdq,.^fob{K@p">
+                            <field name="TEXT">discord 404 game</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="s4d_wait_seconds" id="2@g7gl=**0dDxbF*@s}b">
+                            <value name="TIME">
+                              <shadow type="math_number" id="rsW{LPcH~_q}9UuWnA80">
+                                <field name="NUM">2</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="s4d_set_bot_game" id="s-yT~P6!}@@UtdW:pAhN">
+                                <value name="GAME">
+                                  <block type="text" id="KyFpqZ~UcE^8hwLOPHqy">
+                                    <field name="TEXT">raid shadow legends</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="s4d_wait_seconds" id="yPPjWkc`MCLaT(4-[oqN">
+                                    <value name="TIME">
+                                      <shadow type="math_number" id=".8.76}h#Q]|}y=FB8iAw">
+                                        <field name="NUM">2</field>
+                                      </shadow>
+                                    </value>
+                                    <next>
+                                      <block type="s4d_set_bot_game" id="h0J7;p8?C4XKwxB{JI}e">
+                                        <value name="GAME">
+                                          <block type="text" id="YLBjj+*LEuNTRmk-+0f*">
+                                            <field name="TEXT">made in scratch</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="s4d_wait_seconds" id="+p+el8bE0}8!I:pCZc8~">
+                                            <value name="TIME">
+                                              <shadow type="math_number" id="?iEMDWha(ng.fY5yvYEh">
+                                                <field name="NUM">2</field>
+                                              </shadow>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_on_message" id="]9LV=YQgb-GUp*6}qb%^" x="-508" y="41">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="y3.1AjW@aD(AR(XKfUDb">
+        <value name="IF0">
+          <block type="logic_compare" id="K^s[H$-,$,0@0bmO;GB0">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="k_%mZCzRlDl{r0Z8R0VV"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="!vG+C)+ZSpn}8wCR_d4R">
+                <field name="TEXT">hey</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="F*Ya54BcDZKooTi%nhRX">
+            <value name="CONTENT">
+              <shadow type="text" id="/-gYpIQ4HI[4fkTC%(tV">
+                <field name="TEXT">Hey!</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="s4d_add_reaction" id="%h+d,w9!l=5._avEVX}z">
+                <value name="REACTION">
+                  <shadow type="text" id="ScueFlJV0[C]7[]YQb7J">
+                    <field name="TEXT">👍</field>
+                  </shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_if" id="AJZ[)-!D~2[5VOlOt;DF">
+            <value name="IF0">
+              <block type="logic_compare" id="N?7}h)7HtHL[WCN}^Uo}">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="s4d_message_content" id="IOH|;sbkWBL$Z{-?{.PU"></block>
+                </value>
+                <value name="B">
+                  <block type="text" id="|E@0D|z8|7G2ehCU`evF">
+                    <field name="TEXT">!ping</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="s4d_reply" id="8Znzm(%U,:ML[|%Ge3+j">
+                <value name="CONTENT">
+                  <shadow type="text" id="JfmMA)~T~nC};rkD5,TE">
+                    <field name="TEXT">Hey!</field>
+                  </shadow>
+                  <block type="text_join" id="n+9[9::`._+oai|T*sao" inline="true" collapsed="true">
+                    <mutation items="3"></mutation>
+                    <value name="ADD0">
+                      <block type="text" id="/aigQ8$@41t!0vztZk4B">
+                        <field name="TEXT">Pong!: </field>
+                      </block>
+                    </value>
+                    <value name="ADD1">
+                      <block type="s4d_bot_ping" id="C+ww#aM8FfM2V;-i:dY$"></block>
+                    </value>
+                    <value name="ADD2">
+                      <block type="text" id="pvfjPaCxz7c+w3@2GE{I">
+                        <field name="TEXT">ms</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <next>
+              <block type="controls_if" id="^-VhC1biGCnVE}p=:,QF">
+                <value name="IF0">
+                  <block type="logic_compare" id="Lwcsn/ZEebjA4pLrfQ^T">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="s4d_message_content" id="Ozx+T#IoB3cWZ8h/X?ra"></block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="u)hN)5;FwL4%[5:J#yyR">
+                        <field name="TEXT">!serverinfo</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="s4d_reply" id="e0w-6w^nh,y+-jD;qo5}">
+                    <value name="CONTENT">
+                      <shadow type="text" id="5Mi:nbU11@`6g#nWIPHG">
+                        <field name="TEXT">Hey!</field>
+                      </shadow>
+                      <block type="s4d_message_embed" id="DacTRfzm9U(zm,EhYMah" inline="true" collapsed="true">
+                        <mutation xmlns="http://www.w3.org/1999/xhtml" message="true" color="true" title="true"></mutation>
+                        <value name="MESSAGE">
+                          <block type="text_join" id="e|a){qKPXw}tn](B$16X" inline="true">
+                            <mutation items="5"></mutation>
+                            <value name="ADD0">
+                              <block type="text" id="d_fQ_h,_@)1NC.Ck@*o{">
+                                <field name="TEXT">Server Owner: </field>
+                              </block>
+                            </value>
+                            <value name="ADD1">
+                              <block type="s4d_server_owner" id="hZ:OI[@vCDNx(X+;E0=!">
+                                <value name="SERVER">
+                                  <block type="s4d_message_guild" id="vS/;/IEvBo!MY0US6ANe"></block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="ADD2">
+                              <block type="s4d_newline" id="o8(qbC-q#ePM*WdWiN;="></block>
+                            </value>
+                            <value name="ADD3">
+                              <block type="text" id="i8:KctH%o!3#QG=G]iB^">
+                                <field name="TEXT">Member Count: </field>
+                              </block>
+                            </value>
+                            <value name="ADD4">
+                              <block type="s4d_member_count" id="ipU[?*OrquvWHeapP8Ij">
+                                <value name="SERVER">
+                                  <block type="s4d_message_guild" id="2*ML^Sl+iDGzMwdO7TB^"></block>
+                                </value>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="COLOR">
+                          <block type="colour_picker" id="ob1R*nVcZs|^syiEc+uG">
+                            <field name="COLOUR">#990000</field>
+                          </block>
+                        </value>
+                        <value name="TITLE">
+                          <block type="s4d_server_name" id="[@wPu=GOS9G29x2s(CXB">
+                            <value name="SERVER">
+                              <block type="s4d_message_guild" id="8%MKwwzxE[)oMn~EfJu?"></block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="IMAGE">
+                          <block type="s4d_icon_url" id="--~$n_2TJ;)D^]DW*fma">
+                            <value name="SERVER">
+                              <block type="s4d_message_guild" id="`6GM}UfM=O*n1*5KI).r"></block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="FOOTER">
+                          <block type="text" id="7fV#DvB1CUX8%mm-~?,m">
+                            <field name="TEXT">Created by midsummerred32</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+                <next>
+                  <block type="controls_if" id="$kj|z^.d?]thR=qqqEK)">
+                    <value name="IF0">
+                      <block type="logic_compare" id="cI/rIJ8zN(N03V7U8!OI">
+                        <field name="OP">EQ</field>
+                        <value name="A">
+                          <block type="s4d_message_content" id="Ihg7/*Su6a!-:V66A2A#"></block>
+                        </value>
+                        <value name="B">
+                          <block type="text" id="l@g@RIT6EZs(jub60^K.">
+                            <field name="TEXT">!hitman</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="s4d_send_wait_reply" id=";GO-1ZOYE*gbD0%#;J^|" collapsed="true">
+                        <value name="CONTENT">
+                          <shadow type="text" id="sq4+ytWJnICN-D!``,sE">
+                            <field name="TEXT">Where would you like the hitman dispatched?  </field>
+                          </shadow>
+                        </value>
+                        <value name="CHANNEL">
+                          <block type="s4d_message_channel" id="f0saA6QG#M(Bb$7N28=*"></block>
+                        </value>
+                        <value name="MEMBER">
+                          <block type="s4d_message_author" id="R4S?6w``YcOFv=Ec6I0s"></block>
+                        </value>
+                        <value name="TIME">
+                          <shadow type="math_number" id="WPAE3Zhx/m1[^sTaxTyX">
+                            <field name="NUM">5</field>
+                          </shadow>
+                        </value>
+                        <statement name="THEN">
+                          <block type="s4d_reply" id="[11:Ori`+#=uMVnbO?!3">
+                            <value name="CONTENT">
+                              <shadow type="text" id="$|:_b7TSH/,[Z1LT:1+i">
+                                <field name="TEXT">Hey!</field>
+                              </shadow>
+                              <block type="text_join" id="yviV)aLgRwfAZ|n=8{yW" inline="true">
+                                <mutation items="3"></mutation>
+                                <value name="ADD0">
+                                  <block type="text" id="Ah*cTt9r`0Jo3}Ax`#1e">
+                                    <field name="TEXT">Sending hitman to </field>
+                                  </block>
+                                </value>
+                                <value name="ADD1">
+                                  <block type="s4d_send_wait_reply_value" id="RAF9`EGt$YB@#rtq]:L;"></block>
+                                </value>
+                                <value name="ADD2">
+                                  <block type="text" id="KYILT}SH,^$5-F,4%r+l">
+                                    <field name="TEXT">.</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="s4d_wait_seconds" id="Sj9nuCU2as9S3)z`_Iu@">
+                                <value name="TIME">
+                                  <shadow type="math_number" id="B]HJ8%?ImnD0`^38N8)s">
+                                    <field name="NUM">30</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="s4d_reply" id="1=LP`$GIjo(rQfo*)G|,">
+                                    <value name="CONTENT">
+                                      <shadow type="text" id="[h5H!ib%^yb#]:Av)2}i">
+                                        <field name="TEXT">Hey!</field>
+                                      </shadow>
+                                      <block type="text_join" id="3Sw6!(0@M=ak}ac;xKM+" inline="true">
+                                        <mutation items="3"></mutation>
+                                        <value name="ADD1">
+                                          <block type="s4d_message_author" id="AcMnJm`=lh1eO{b`;,Sw"></block>
+                                        </value>
+                                        <value name="ADD2">
+                                          <block type="text" id="S|cBJST:/A?@GsP$8k{x">
+                                            <field name="TEXT">, hitman is en route.</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                      </block>
+                    </statement>
+                    <next>
+                      <block type="controls_if" id="ahT_:kN7K_oFHR0$,3H]">
+                        <value name="IF0">
+                          <block type="logic_compare" id="go0J(Y|9WtszR]phC8KS">
+                            <field name="OP">NEQ</field>
+                            <value name="A">
+                              <block type="s4d_message_author" id="f=2GN9e{VlGW@jd#(8p@"></block>
+                            </value>
+                            <value name="B">
+                              <block type="s4d_get_member" id=":c.OvkFaeIhCHt~$X-S%" collapsed="true">
+                                <field name="SEARCH_TYPE">ID</field>
+                                <value name="VALUE">
+                                  <block type="text" id="z.w5D~W}I~t9BUe%f0(/">
+                                    <field name="TEXT">872229532986384424</field>
+                                  </block>
+                                </value>
+                                <value name="SERVER">
+                                  <block type="s4d_message_guild" id="u)u]DX2!f4IkB[9in@Cv"></block>
+                                </value>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <statement name="DO0">
+                          <block type="s4d_send_channel" id="D{)fEOi^;#/m2P?*nre^" collapsed="true">
+                            <value name="CONTENT">
+                              <block type="s4d_message_embed" id="UvX[B#BS2uo]I1a~xSmv" inline="true" collapsed="true">
+                                <mutation xmlns="http://www.w3.org/1999/xhtml" message="true" color="true" title="true"></mutation>
+                                <value name="MESSAGE">
+                                  <block type="text_join" id="igQ-cKc,;cAS}kWHeZ22" inline="true">
+                                    <mutation items="3"></mutation>
+                                    <value name="ADD0">
+                                      <block type="s4d_message_content" id="v2gEf}EsxjhQNaApKXMU"></block>
+                                    </value>
+                                    <value name="ADD1">
+                                      <block type="text" id="[I96@KEoYm.U/psjW;[J">
+                                        <field name="TEXT"> by </field>
+                                      </block>
+                                    </value>
+                                    <value name="ADD2">
+                                      <block type="s4d_message_author" id=".SP$iO*yq(bI2ce24im0"></block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <value name="COLOR">
+                                  <block type="colour_picker" id="w(l%Nn6iJ[kE7*)i`uf_">
+                                    <field name="COLOUR">#990000</field>
+                                  </block>
+                                </value>
+                                <value name="TITLE">
+                                  <block type="text" id="G+{Sb2V/`]rPMHOYxhn)">
+                                    <field name="TEXT">New Message!</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="CHANNEL">
+                              <block type="s4d_get_channel" id="IM;sJvUPoSoqX.B0(wgT" collapsed="true">
+                                <field name="SEARCH_TYPE">NAME</field>
+                                <value name="VALUE">
+                                  <block type="text" id="KqIf}h%*[:w7SVbDOv0J">
+                                    <field name="TEXT">logs</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                          </block>
+                        </statement>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
